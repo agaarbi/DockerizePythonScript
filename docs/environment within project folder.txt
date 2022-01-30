@@ -1,0 +1,24 @@
+USE TERMINAL AND NOT POWERSHELL
+===============================
+
+To Create Environment
+=====================
+python -m venv venv
+
+To Activate Environment
+=======================
+.\venv\Scripts\activate
+
+To Install dependencies
+=======================
+pip install -r requirements.txt
+
+Interpreter Selection in Visual Code
+====================================
+ctl + shift + p (Command Palette) -> Select Interpreter -> local (newly created)
+
+
+
+TO CREATE REQUIREMENTS FROM CURRENT ENVIRONMENT
+===============================================
+pip freeze >> "requirements.txt"
