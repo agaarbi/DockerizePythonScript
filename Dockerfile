@@ -2,10 +2,10 @@
 
 FROM python:3
 
-COPY ./app /app
+COPY . .
 
 ADD requirements.txt /
 RUN pip install -r requirements.txt
 # RUN pip3 install wheel python-dotenv
 
-CMD [ "python", "./app/main.py" ]
+CMD [ "python", "./main.py" ]
