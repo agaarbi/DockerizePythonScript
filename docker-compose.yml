@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  printArray:
+    build: .
+    image: my-container
+    volumes:
+      - data-volume:/data
+    command:
+      python main.py
+volumes:
+  data-volume: {}
