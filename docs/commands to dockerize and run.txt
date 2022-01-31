@@ -22,3 +22,7 @@ docker volume rm data-volume
 Using Docker Compose
 ====================
 docker compose up
+help:
+https://docs.docker.com/compose/#features
+https://docs.docker.com/storage/volumes/
+https://github.com/aschleg/pethub/blob/main/docker-compose.yml
