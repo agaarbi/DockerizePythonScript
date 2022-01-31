@@ -5,9 +5,3 @@ print(a)
 f = open(".\data\data.txt", "w")
 f.write(str(a))
 f.close()
-
-# Write in volume
-# created data-volume and mounted data-volume:/data from command line
-f_volume = open("\data\data.txt", "w")
-f_volume.write(str(a))
-f_volume.close()
