@@ -18,3 +18,7 @@ Create and delete Volume
 ========================
 docker volume create data-volume
 docker volume rm data-volume
+
+Using Docker Compose
+====================
+docker compose up
