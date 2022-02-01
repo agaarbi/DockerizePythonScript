@@ -1,2 +1,2 @@
 # DockerizePythonScript
-Python Script dockerization with modules in another file and environment variables.
+Python Script dockerization, along with data in volume, and using docker-compose.
